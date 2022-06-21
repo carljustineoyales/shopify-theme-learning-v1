@@ -7,9 +7,9 @@
   {% for product in collection.products %}
   	<li>
       <a href="{{product.url}}">
-      	{{ product.title }} - {{ product.price | money }} -
+      	{{ product.title }} - {{ product.price | money }}
         {% if product.available != true %}
-        <span>Not Available</span>
+        <span>(Sold out)</span>
         {% endif %}
       </a>
       
