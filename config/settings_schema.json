@@ -6,5 +6,16 @@
     "theme_author": "Shopify",
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
     "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "link_color",
+        "label": "Link Color",
+        "default": "#000"
+      }
+    ]
   }
 ]
