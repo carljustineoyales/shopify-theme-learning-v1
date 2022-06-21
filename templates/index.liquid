@@ -8,9 +8,9 @@
   	<li>
       <a href="{{product.url}}">
       	{{ product.title }} - {{ product.price | money }}
-        {% if product.available != true %}
+        {% unless product.available %}
         <span>(Sold out)</span>
-        {% endif %}
+        {% endunless %}
       </a>
       
   </li>
