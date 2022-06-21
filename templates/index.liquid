@@ -5,6 +5,11 @@
 
 <ul> 
   {% for product in collection.products %}
-  	<li>{{ product.title }} - {{ product.price | money }}</li>
+  	<li>
+      <a href="{{product.url}}">
+      	{{ product.title }} - {{ product.price | money }} - {{ product.available }}
+      </a>
+      
+  </li>
   {% endfor %} 
 </ul>
