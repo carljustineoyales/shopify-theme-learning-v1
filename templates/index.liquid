@@ -1,10 +1,3 @@
-{% assign array_string = "mike,denise,cj,qwerty"  %}
-{% assign array = array_string | split: ',' %}
+{% assign collection = collections['featured-collection] %}
 
-<ul>
-{% 	for name in array %}
-  {% if name.size < 4 %}
-	<li>{{name}}</li>
-  {% endif%}
-{% endfor %}
-</ul>
+{{collection}}
