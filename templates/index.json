@@ -1,5 +1,10 @@
 {
   "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "settings": {
+      }
+    },
     "random": {
       "type": "random-collection",
       "settings": {
@@ -7,6 +12,7 @@
     }
   },
   "order": [
+    "announcement",
     "random"
   ]
 }
